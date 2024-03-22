@@ -1,11 +1,119 @@
-<mxfile host="Electron" modified="2024-03-21T10:06:52.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="P3GUpc9DjrbHcHC4CJZ5" version="23.0.2" type="device">
+<mxfile host="Electron" modified="2024-03-22T15:40:01.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="S7mqHSKAD8wr9ZY-QJU0" version="24.0.4" type="device">
   <diagram name="Page-1" id="JROnj5R4PWWWIS4w3WNy">
-    <mxGraphModel dx="1450" dy="1071" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3040" dy="860" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vtK2HyJHEZTtT15lJkL9-1" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-116" y="-9" width="120" height="80" as="geometry" />
+        <mxCell id="vtK2HyJHEZTtT15lJkL9-1" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;UserID (Primary Key)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-995" y="35" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-1" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;User Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="201" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-2" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;Username&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-834" y="35" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-3" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;Account Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="252" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-4" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;Transaction Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2751" y="339" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-5" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Payee Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="449" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-6" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Session Table (for User Sessions)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="446" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-7" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Security Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-42" y="568" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-8" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;Card Table (for Debit/Credit Cards)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-46" y="703" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-9" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;Interest Rate Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="703" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-10" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Loan Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-11" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;Message Table (for internal messages or alerts)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="849" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-12" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;Exchange Rate Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="849" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-13" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Branch Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-14" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;ATM Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-39" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-15" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;Customer Service Request Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="206" y="984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-16" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Activity Log Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="371" y="984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-18" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Password (encrypted/hashed)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-667" y="35" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-23" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;FirstName&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-166" y="46" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-24" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;LastName&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-19" y="37" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-25" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Email&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="41" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-26" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;Phone&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-333" y="43" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-41" value="&#xa;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Address&lt;/span&gt;&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-42" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;DateOfBirth&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-43" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;AccountID (Primary Key)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="984" y="159" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-44" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;DateOpened&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1632" y="135" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-45" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;TransactionID (Primary Key)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2358" y="172" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-46" value="&#xa;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;nbsp; AccountID (Foreign Key referencing Account Table)&lt;/span&gt;&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2572" y="178" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-47" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;TransactionType (e.g., Deposit, Withdrawal, Transfer)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2762" y="174" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-48" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Status (e.g., Active, Inactive)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1791" y="156" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-49" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Balance&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1449" y="144" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-50" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;AccountType (e.g., Savings, Checking)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1298" y="144" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-51" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;UserID (Foreign Key referencing User Table)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1119" y="151" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-52" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;BalanceAfterTransaction&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3532" y="186" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-53" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Description&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3331" y="181" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-54" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;TransactionDate&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3130" y="181" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7OcumLCk1DkHGJWgYzTT-55" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; text-align: start;&quot;&gt;&amp;nbsp;Amount&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2929" y="181" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
