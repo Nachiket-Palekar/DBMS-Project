@@ -84,7 +84,7 @@ create table Message_Table(
 	 UserID numeric,
      foreign key(UserID)references User(UserID),
      MessageText varchar(20));
-     -- Timestamp
+     
 create table Exchange_Rate (
      CurrencyFrom varchar(15),
      CurrencyTo varchar(15),
@@ -108,12 +108,12 @@ create table Customer_Service_Request(
     CSR_Description varchar(22),
     CSR_Status varchar(10),
     AssignedTo varchar(22));
-    -- Timestamp
+
 create table Activity_Log(
      LogID numeric,
      Primary Key(LogID),
 	 UserID numeric,
      foreign key(UserID)references User(UserID),
      ActivityType varchar(22));
-     -- Timestamp
+
 
