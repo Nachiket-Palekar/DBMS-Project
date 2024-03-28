@@ -150,4 +150,17 @@ insert into transaction values (2000,	"CHE",1001,	3000,	1620105600,	"Active",	"D
 (4004,	"CRE",1009,	7000,	1620105600,	"Active",	"DEBIT",300,1620368008,	"Cash advance",	7200),					
 (4005,	"CRE",1010,	7000,	1620105600,	"Active",	"DEBIT",500,1620368008,	"Cash advance",	6900);					
 
+insert into payee values (5001,	1101,	"John Smith",	123456789,	"Acme Bank",	1	,"Personal"),									
+(5002,	1102,	"Jane Doe",	234567890,	"Bank of America",	1	,"Personal"),									
+(5003,	1103,	"Acme Inc.",	345678901,	"Wells Fargo",	1	,"Business"),									
+(5004,	1104,	"Acme Inc.",	456789012,	"Wells Fargo",	1	,"Business"),									
+(5005,	1105,	"XYZ Inc.",	567890123,	"Chase Bank",	1	,"Business"),									
+(5006,	1106,	"Acme Inc.",	678901234,	"Wells Fargo",	0	,"Business"),									
+(5007,	1107,	"Office Supplies",	789012345,	"Staples",	1,	"Business	"),								
+(5008,	1108,	"Utilities",	890123456,	"ABC Utility",	1	,"Personal"),									
+(5009,	1109,	"Gas and Electric",	901234567,	"DEF Utility",	1	,"Personal"),									
+(5010,	1110,	"Rent",	1234567890,	"Local Property",	1	,"Personal");
+
+
+									
 
