@@ -54,19 +54,19 @@ create table Session_table(
 create table Security_Table(
     UserID numeric,
     foreign key(UserID)references User(UserID),
-    SecurityQuestion varchar(22),
-    SecurityAnswer varchar(22));
+    SecurityQuestion varchar(82),
+    SecurityAnswer varchar(82));
 create table Card_Table (
     CardID numeric,
     Primary Key(CardID),
      UserID numeric,
     foreign key(UserID)references User(UserID),
-    CardNumber numeric,
+    CardNumber long,
     CardType varchar(15),
     ExpiryDate numeric,
     CVV numeric);
 create table Interest_Rate(
-    AccountType varchar(10),
+    AccountType varchar(20),
     InterestRate float);
 create table Loan_Table(
     LoanID numeric,
@@ -173,4 +173,31 @@ insert into session_table values (3001,	1101,1,1620105600,	1620105660),
 (3010,	1110,1,	1620106140,	1620106200);												
 
 									
+insert into security_table values (1101,	"What is your favorite color?",	"Blue"),												
+(1102,	"What is your pet's name?",	"Fluffy"),												
+(1103,	"What is your favorite sports team?",	"NY Yankees"),												
+(1104,	"What is your favorite movie?",	"The Godfather	"),											
+(1105,	"What is your favorite book?",	"To Kill a Mockingbird"),												
+(1106,	"What is your favorite food?",	"Pizza"),												
+(1107,	"What is your favorite band?",	"The Beatles"),												
+(1108,	"What is your favorite TV show?",	"Game of Thrones"),												
+(1109,	"What is your favorite holiday?",	"Christmas"),												
+(1110,	"What is your favorite superhero?",	"Superman");												
 
+insert into card_table values (5620,	1101,	1234567890123450,	"Visa",	0824,	123),
+(5621,	1102,	1234567890123450,	"Visa",	0924,	123),
+(5622,	1103,	1234567890123460,	"Visa",	1024,	123),
+(5623,	1104,	1234567890123460,	"Visa",	1124,	123),
+(5624,	1105,	1234567890123460,	"Visa",	1224,	123),
+(5625,	1106,	1234567890123470,	"Visa",	0125,	123),
+(5626,	1107,	1234567890123470,	"Visa",	0225,	123),
+(5627,	1108,	1234567890123470,	"Visa",	0325,	123),
+(5628,	1109,	1234567890123480,	"Visa",	0425,	123),
+(5629,	1110,	1234567890123480,	"Visa",	0525,	123);
+
+insert into interest_rate values ("Checking",0),
+("Savings",0.02),
+("MoneyMarket",0.03),
+("CD",0.05),
+("RewardsChecking",0.005),
+("CreditCard",0.15);
