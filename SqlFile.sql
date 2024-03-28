@@ -5,7 +5,7 @@ Username varchar(20),
 Pass varchar(22),
 FirstName varchar(20),
 LastName varchar(20),
-EmailPhone varchar(20),
+EmailPhone varchar(40),
 Address varchar(20),
 DateOfBirth numeric,
 UserID numeric,
@@ -115,5 +115,39 @@ create table Activity_Log(
 	 UserID numeric,
      foreign key(UserID)references User(UserID),
      ActivityType varchar(22));
+
+
+insert into user values("john_doe","password1", "John","Doe","john.doe@email.com","123 Main St.",01011990,1101),
+("jane_doe","password2","Jane","Doe","jane.doe@email.com","456 Oak St.",02021985,1102),
+("jim_brown","password3","Jim", "Brown","jim.brown@email.com","789 Elm St.",03031995,1103),
+("jake_gray","password4","Jake","Gray","jake.gray@email.com","321 Pine St.",04041992,1104),
+("joan_green",	"password5","Joan","Green","joan.green@email.com","654 Maple St.",05051997,1105),
+("jordan_white","password6","Jordan","White","jordan.white@email.com","987 Ash St.",06061994,1106),
+("jessica_purple","password7","Jessica","Purple","jessica.purple@email.com","135 Cedar St.",07071991,1107),
+("jack_orange","password8","Jack","Orange",	"jack.orange@email.com","246 Birch St.", 08081993,1108),
+("jill_black","password9",	"Jill",	"Black","jill.black@email.com",	"369 Walnut St.",09091996,1109),
+("james_yellow","password10","James","Yellow","james.yellow@email.com","478 Cherry St.",09091996,1110);
+
+insert into account values(1001,1101,"CHE",5000,1620105600,"Active"),
+(1002,1102,"SAV",10000,1620105600,"Active"),
+(1003,1103,"CRE",2000,1620105600,"Active"),
+(1004,1104,"CHE",7000,1620105600,"Inactive"),
+(1005,1105,"SAV",15000,1620105600,"Active"),
+(1006,1106,"CRE",3000,1620105600,"Active"),
+(1007,1107,"CHE",8000,1620105600,"Active"),
+(1008,1108,"SAV",12000,1620105600,"Active"),
+(1009,1109,"CRE",4000,1620105600,"Active"),
+(1010,1110,"CHE",9000,1620105600,"Active");
+
+insert into transaction values (2000,	"CHE",1001,	3000,	1620105600,	"Active",	"DEBIT",100,1620368000,	"Online purchase",	2900),					
+(2001,	"CHE", 1002,	3000,	1620105600,	"Active",	"DEBIT",50,1620368001,	"In-store purchase",	2950),
+(2002,	"CHE",1003,	5000,	1620105600,	"Active",	"CREDIT",200,	1620368002,	"Employee reimbursement", 5200),					
+(3001,	"SAV",1004,	10000,	1620105600,	"Active",	"DEBIT",2000,1620368003,	"Withdrawal",	8000),					
+(3002,	"SAV",1005,	15000,	1620105600,	"Active",	"CREDIT",1000,1620368004,	"Interest earned",	16000),					
+(4001,	"CRE",1006,	4000,	1620105600,	"Active",	"DEBIT",100,1620368005,	"Online payment",	3900),					
+(4002,	"CRE",1007,	4000,	1620105600,	"Active",	"DEBIT",100,1620368006,	"Interest charge",	3800),					
+(4003,	"CRE",1008,	7000,	1620105600,	"Active",	"CREDIT",500,	1620368007,	"Purchase reward",	7500),					
+(4004,	"CRE",1009,	7000,	1620105600,	"Active",	"DEBIT",300,1620368008,	"Cash advance",	7200),					
+(4005,	"CRE",1010,	7000,	1620105600,	"Active",	"DEBIT",500,1620368008,	"Cash advance",	6900);					
 
 
